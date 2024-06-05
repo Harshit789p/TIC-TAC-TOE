@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#reset{
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+}
+h1{
+    text-align: center;
+    /* margin-top: 5px; */
+    padding-top: 8px;
+    padding-bottom: 5px;
+    height: 70px;
+    background-color: beige;
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.inn{
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(104, 22, 130);
+}
+.box{
+    /* align-items: center; */
+    text-align: center;
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: aquamarine; */
+}
+.box button{
+    height: 150px;
+    width: 180px;
+    padding: 5px;
+}
+
+#reset{
+    background-color: black;
+    color: white; 
+    border: 3px solid lawngreen;
+    border-radius: 12px;
+}
+/* #reset :hover{
+    width: 180px;
+} */
+@media screen and (max-width: 560px) {
+    h1{
+        width: 100%;
+    }
+    .box button{
+        height: 100px;
+        width: 140px;
+        padding: 5px;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    h1{
+        width: 100%;
+    }
+    .box button{
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    h1{
+        width: 100%;
+    }
+    .box button{
+        height: 90px;
+        width: 80px;
+        padding: 5px;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 265px) {
+    h1{
+        width: 100%;
+    }
+    .box button{
+        height: 80px;
+        width: 70px;
+        padding: 5px;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    } 
+}
